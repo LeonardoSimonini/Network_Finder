@@ -8,6 +8,7 @@ Recently I worked on a Microsoft Excel Sheet where I had a long list of IP addre
 FIND_NETWORK take two argument in input:
   1. The first one is an IP address, which I need to associate with a Network.
   2. The second one is a range of cell in Excel with a list of Networks.
+
 The **output** of the function is the network which owns the IP address. If the right network is not in the list, the function return an error. If in the list there are network and subnetworks which the IP could belongs to, the function returns the smallest subnetwork the IP address belongs to.
 
 ![image](https://github.com/user-attachments/assets/5718ca67-96a9-4f99-930a-7f9b87c720da)
